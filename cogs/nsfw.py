@@ -9,7 +9,7 @@ class Nsfw(commands.Cog):
     @commands.command()
     async def hentai(self, ctx):
         if ctx.channel.is_nsfw():
-            await ctx.send(hmtai.useHM('v1', 'hentai'))
+            await ctx.send(hmtai.useHM('v2_4', 'hentai'))
         else:
             await ctx.send('Не тут.')
 
