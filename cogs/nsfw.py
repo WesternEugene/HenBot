@@ -11,7 +11,7 @@ class Nsfw(commands.Cog):
         if ctx.channel.is_nsfw():
             await ctx.send(hmtai.useHM('v1', 'hentai'))
         else:
-            ctx.send('Не тут.')
+            await ctx.send('Не тут.')
 
 def setup(bot):
     bot.add_cog(Nsfw(bot))
