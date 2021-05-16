@@ -11,8 +11,8 @@
 5. Создай nsfw-канал на сервере
 6. Всё готово!
 # Команды
-<code>.hentai</code>
-<code>.bdsm</code>
-<code>.gif</code>
-<code>.uniform</code>
+<code>.hentai</code><br>
+<code>.bdsm</code><br>
+<code>.gif</code><br>
+<code>.uniform</code><br>
 <code>.cum</code>
