@@ -21,13 +21,6 @@ class Nsfw(commands.Cog):
             await ctx.send('Не тут.')
 
     @commands.command()
-    async def gif(self, ctx):
-        if ctx.channel.is_nsfw():
-            await ctx.send(hmtai.useHM('v2', 'gif'))
-        else:
-            await ctx.send('Не тут.')
-
-    @commands.command()
     async def uniform(self, ctx):
         if ctx.channel.is_nsfw():
             await ctx.send(hmtai.useHM('v2', 'uniform'))
