@@ -34,7 +34,7 @@ class Nsfw(commands.Cog):
         else:
             await ctx.send('Не тут.')
 
-    @commands.comamnd()
+    @commands.command()
     async def femdom(self, ctx):
         if ctx.channel.is_nsfw():
             await ctx.send(hmtai.useHM('v2', 'femdom'))
