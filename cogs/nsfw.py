@@ -13,5 +13,12 @@ class Nsfw(commands.Cog):
         else:
             await ctx.send('Не тут.')
 
+    @commands.command()
+    async def bdsm(self, ctx):
+        if ctx.channel.is_nsfw():
+            await ctx.send(hmtai.useHM('v2', 'bdsm'))
+        else:
+            await ctx.send('Не тут.')
+
 def setup(bot):
     bot.add_cog(Nsfw(bot))
