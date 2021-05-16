@@ -13,6 +13,6 @@
 # Команды
 <code>.hentai</code><br>
 <code>.bdsm</code><br>
-<code>.gif</code><br>
+<code>.femdom</code><br>
 <code>.uniform</code><br>
 <code>.cum</code>
