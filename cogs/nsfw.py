@@ -38,6 +38,44 @@ class Nsfw(commands.Cog):
     async def femdom(self, ctx):
         if ctx.channel.is_nsfw():
             await ctx.send(hmtai.useHM('v2', 'femdom'))
+        else:
+            await ctx.send('Не тут.')
+
+    @commands.command()
+    async def vagina(self, ctx):
+        if ctx.channel.is_nsfw():
+            await ctx.send(hmtai.useHM('v2', 'vagina'))
+        else:
+            await ctx.send('Не тут.')
+
+    @commands.command()
+    async def gangbang(self, ctx):
+        if ctx.channel.is_nsfw():
+            await ctx.send(hmtai.useHM('v2', 'gangbang'))
+        else:
+            await ctx.send('Не тут.')
+
+    @commands.command()
+    async def tentacles(self, ctx):
+        if ctx.channel.is_nsfw():
+            await ctx.send(hmtai.useHM('v2', 'tentacles'))
+        else:
+            await ctx.send('Не тут.')
+
+    @commands.command()
+    async def neko(self, ctx):
+        if ctx.channel.is_nsfw():
+            await ctx.send(hmtai.useHM('v2', 'nsfwNeko'))
+        else:
+            await ctx.send('Не тут.')
+
+    @commands.command()
+    async def ero(self, ctx):
+        if ctx.channel.is_nsfw():
+            await ctx.send(hmtai.useHM('v2', 'ero'))
+        else:
+            await ctx.send('Не тут.')
+
 
 def setup(bot):
     bot.add_cog(Nsfw(bot))
