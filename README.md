@@ -15,4 +15,8 @@
 <code>.bdsm</code><br>
 <code>.femdom</code><br>
 <code>.uniform</code><br>
-<code>.cum</code>
+<code>.cum</code><br>
+<code>.vagina</code><br>
+<code>.gangbang</code><br>
+<code>.tentacles</code><br>
+<code>.neko</code>
