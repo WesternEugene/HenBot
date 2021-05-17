@@ -40,21 +40,7 @@ class Nsfw(commands.Cog):
             await ctx.send(hmtai.useHM('v2', 'femdom'))
         else:
             await ctx.send('Не тут.')
-
-    @commands.command()
-    async def vagina(self, ctx):
-        if ctx.channel.is_nsfw():
-            await ctx.send(hmtai.useHM('v2', 'vagina'))
-        else:
-            await ctx.send('Не тут.')
-
-    @commands.command()
-    async def gangbang(self, ctx):
-        if ctx.channel.is_nsfw():
-            await ctx.send(hmtai.useHM('v2', 'gangbang'))
-        else:
-            await ctx.send('Не тут.')
-
+    
     @commands.command()
     async def tentacles(self, ctx):
         if ctx.channel.is_nsfw():
