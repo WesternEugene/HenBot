@@ -8,7 +8,7 @@ class Nsfw(commands.Cog):
         self.bot = bot
 
     @commands.command()
-    async def rand(self, ctx):
+    async def hentai(self, ctx):
         cat = ['hentai', 'bdsm', 'uniform', 'cum', 'femdom', 'tentacles', 'nsfwNeko', 'ero']
         if ctx.channel.is_nsfw():
             await ctx.send(hmtai.useHM('v2', random.choice(cat)))
