@@ -6,14 +6,6 @@ https://discord.com/api/oauth2/authorize?client_id=805711150616150026&permission
 1. Создай nsfw-канал на сервере
 2. Всё готово!
 # Команды
-<code>.hentai</code><br>
-<code>.bdsm</code><br>
-<code>.femdom</code><br>
-<code>.uniform</code><br>
-<code>.cum</code><br>
-<code>.vagina</code><br>
-<code>.gangbang</code><br>
-<code>.tentacles</code><br>
-<code>.neko</code>
+<code>.hentai</code>
 # P. S.
 Можете скачать исходники, если хотите :)
