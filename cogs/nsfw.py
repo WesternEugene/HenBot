@@ -1,10 +1,17 @@
 import discord
 import hmtai
+import random
 from discord.ext import commands
 
 class Nsfw(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+
+    @commads.command()
+    async def rand(self, ctx):
+        cat = ['hentai', 'bdsm', 'uniform', 'cum', 'femdom', 'tentacles', 'nsfwNeko', 'ero']
+        if ctx.channel.is_nsfw():
+            await ctx.send(hmtai.useHM('v2', random.choice(cat)))
 
     @commands.command()
     async def hentai(self, ctx):
@@ -40,7 +47,7 @@ class Nsfw(commands.Cog):
             await ctx.send(hmtai.useHM('v2', 'femdom'))
         else:
             await ctx.send('Не тут.')
-    
+
     @commands.command()
     async def tentacles(self, ctx):
         if ctx.channel.is_nsfw():
